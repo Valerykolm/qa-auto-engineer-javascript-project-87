@@ -1,2 +1,13 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Valerykolm/qa-auto-engineer-javascript-project-87/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Valerykolm/qa-auto-engineer-javascript-project-87/actions)
+
+# gendiff
+
+Compares two configuration files and shows a difference.
+
+## Usage
+
+```bash
+gendiff filepath1.json filepath2.json
+
+https://asciinema.org/connect/d04ff199-247b-4dfe-8692-5a78f392a249
