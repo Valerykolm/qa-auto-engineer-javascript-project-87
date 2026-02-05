@@ -7,7 +7,7 @@
 
 # Sonar Qube
 
-https://sonarcloud.io/api/project_badges/measure?project=Valerykolm_qa-auto-engineer-javascript-project-87&metric=code_smells
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Valerykolm_qa-auto-engineer-javascript-project-87&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Valerykolm_qa-auto-engineer-javascript-project-87)
 
 # gendiff
 
