@@ -5,7 +5,7 @@
 
 [![CI](https://github.com/Valerykolm/qa-auto-engineer-javascript-project-87/actions/workflows/ci.yml/badge.svg)](https://github.com/Valerykolm/qa-auto-engineer-javascript-project-87/actions/workflows/ci.yml)
 
-# Sonar Qube
+### Sonar Qube
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Valerykolm_qa-auto-engineer-javascript-project-87&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Valerykolm_qa-auto-engineer-javascript-project-87)
 
