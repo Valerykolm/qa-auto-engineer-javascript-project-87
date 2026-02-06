@@ -31,5 +31,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=valerykolm
-            -Dsonar.organization=qa-auto-engineer-javascript-project-87
+            -Dsonar.projectKey=Valerykolm_qa-auto-engineer-javascript-project-87
+            -Dsonar.organization=valerykolm
