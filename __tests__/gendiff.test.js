@@ -1,4 +1,7 @@
 // __tests__/gendiff.test.js
-test('dummy test', () => {
-  expect(true).toBe(true);
+import genDiff from '../src/index.js';
+
+test('genDiff returns a string', () => {
+  const result = genDiff();
+  expect(typeof result).toBe('string');
 });
