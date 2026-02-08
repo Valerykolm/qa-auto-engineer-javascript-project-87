@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1770556444942" clover="3.2.0">
+  <project timestamp="1770556444942" name="All files">
+    <metrics statements="22" coveredstatements="21" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6" elements="36" coveredelements="34" complexity="0" loc="22" ncloc="22" packages="1" files="3" classes="3"/>
+    <file name="genDiff.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/genDiff.js">
+      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="23" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+    </file>
+    <file name="index.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/index.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="parse.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/parse.js">
+      <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
