@@ -25,16 +25,16 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
+        run: npm test -- --coverage
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        with:
-          args: >
-            -Dsonar.projectKey=Valerykolm_qa-auto-engineer-javascript-project-87
-            -Dsonar.organization=valerykolm
-            -Dsonar.projectVersion=1.0.0
-            -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+        # with:
+        #   args: >
+        #     -Dsonar.projectKey=Valerykolm_qa-auto-engineer-javascript-project-87
+        #     -Dsonar.organization=valerykolm
+        #     -Dsonar.projectVersion=1.0.0
+        #     -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
 
