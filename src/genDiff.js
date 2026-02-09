@@ -10,8 +10,8 @@ const genDiff = (filepath1, filepath2) => {
   const data1 = readFile(filepath1)
   const data2 = readFile(filepath2)
 
-  const parsedData1 = parse(data1, getFormat(filepath1));
-  const parsedData2 = parse(data2, getFormat(filepath2));
+  const parsedData1 = parse(data1, getFormat(filepath1))
+  const parsedData2 = parse(data2, getFormat(filepath2))
 
   const keys = Object.keys({ ...parsedData1, ...parsedData2 }).sort()
 

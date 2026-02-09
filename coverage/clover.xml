@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770556444942" clover="3.2.0">
-  <project timestamp="1770556444942" name="All files">
+<coverage generated="1770652689209" clover="3.2.0">
+  <project timestamp="1770652689209" name="All files">
     <metrics statements="22" coveredstatements="21" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6" elements="36" coveredelements="34" complexity="0" loc="22" ncloc="22" packages="1" files="3" classes="3"/>
     <file name="genDiff.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/genDiff.js">
       <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
