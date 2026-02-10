@@ -38,6 +38,6 @@ jobs:
           args: >
             -Dsonar.projectKey=Valerykolm_qa-auto-engineer-javascript-project-87
             -Dsonar.organization=valerykolm
-        #     -Dsonar.projectVersion=1.0.0
-        #     -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+            -Dsonar.projectVersion=1.0.0
+            -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
 
