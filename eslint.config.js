@@ -5,5 +5,22 @@ import stylistic from '@stylistic/eslint-plugin'
 
 export default defineConfig([
   stylistic.configs.recommended,
-  { files: ['**/*.{js,mjs,cjs}'], plugins: { js }, extends: ['js/recommended'], languageOptions: { globals: globals.node } },
+  {
+    files: ['**/*.{js,mjs,cjs}'],
+    plugins: { js },
+    extends: ['js/recommended'],
+    languageOptions: {
+      globals: globals.node,
+    },
+  },
+
+  {
+    files: ['**/__tests__/**/*.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+        ...globals.jest,
+      },
+    },
+  },
 ])
