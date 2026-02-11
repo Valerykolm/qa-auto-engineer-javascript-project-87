@@ -1,23 +1,21 @@
 import path from 'path'
+import fs from 'fs'
 import genDiff from '../src/index.js'
 
 const getFixturePath = filename =>
   path.resolve(process.cwd(), '__tests__/__fixtures__', filename)
 
-test('genDiff compares flat json files', () => {
-  const result = genDiff(
-    getFixturePath('file1.json'),
-    getFixturePath('file2.json'),
-  )
+describe('genDiff flat files comparison', () => {
+  test.each([
+    ['file1.json', 'file2.json'],
+    ['file1.yml', 'file2.yml'],
+    ['file1.yaml', 'file2.yaml'],
+  ])('compare %s and %s', (file1, file2) => {
+    const expected = readFile('expected.txt')
 
-  const expected = `{
-  - follow: false
-    host: hexlet.io
-  - proxy: 123.234.53.22
-  - timeout: 50
-  + timeout: 20
-  + verbose: true
-}`
+    const filePath1 = getFixturePath(file1)
+    const filePath2 = getFixturePath(file2)
 
-  expect(result).toBe(expected)
-})
+    expect(genDiff(filePath1, filePath2)).toBe(expected)
+  })
+});

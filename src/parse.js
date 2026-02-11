@@ -1,5 +1,5 @@
 const parse = (data, format) => {
-  if (format === 'json') {
+  if ((format === 'json') || (format === 'yml') || (format === 'yaml')) {
     return JSON.parse(data)
   }
 
