@@ -1,6 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import parse from './parse.js'
+import buildDiff from './buildDiff.js'
+import stylish from './formatters/stylish.js'
 
 const getPath = filepath => path.resolve(process.cwd(), filepath)
 const getFormat = filepath => path.extname(filepath).slice(1)
@@ -13,28 +15,9 @@ const genDiff = (filepath1, filepath2) => {
   const parsedData1 = parse(data1, getFormat(filepath1))
   const parsedData2 = parse(data2, getFormat(filepath2))
 
-  const keys = Object.keys({ ...parsedData1, ...parsedData2 }).sort()
+  const diffTree = buildDiff(parsedData1, parsedData2)
 
-  const lines = keys.flatMap((key) => {
-    if (!Object.hasOwn(parsedData2, key)) {
-      return `  - ${key}: ${parsedData1[key]}`
-    }
-
-    if (!Object.hasOwn(parsedData1, key)) {
-      return `  + ${key}: ${parsedData2[key]}`
-    }
-
-    if (parsedData1[key] !== parsedData2[key]) {
-      return [
-        `  - ${key}: ${parsedData1[key]}`,
-        `  + ${key}: ${parsedData2[key]}`,
-      ]
-    }
-
-    return `    ${key}: ${parsedData1[key]}`
-  })
-
-  return `{\n${lines.join('\n')}\n}`
+  return stylish(diffTree)
 }
 
 export default genDiff
