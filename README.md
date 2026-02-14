@@ -23,3 +23,5 @@ Compares two configuration files and shows a difference.
 gendiff filepath1.json filepath2.json
 
 https://asciinema.org/connect/d04ff199-247b-4dfe-8692-5a78f392a249
+
+https://asciinema.org/a/UK1JXDN2yJdt2L0R
