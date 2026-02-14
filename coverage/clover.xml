@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1771072545591" clover="3.2.0">
-  <project timestamp="1771072545591" name="All files">
-    <metrics statements="47" coveredstatements="44" conditionals="24" coveredconditionals="19" methods="12" coveredmethods="12" elements="83" coveredelements="75" complexity="0" loc="47" ncloc="47" packages="2" files="6" classes="6"/>
+<coverage generated="1771073800481" clover="3.2.0">
+  <project timestamp="1771073800481" name="All files">
+    <metrics statements="49" coveredstatements="46" conditionals="20" coveredconditionals="15" methods="14" coveredmethods="14" elements="83" coveredelements="75" complexity="0" loc="49" ncloc="49" packages="3" files="8" classes="8"/>
     <package name="src">
-      <metrics statements="27" coveredstatements="26" conditionals="13" coveredconditionals="12" methods="8" coveredmethods="8"/>
+      <metrics statements="21" coveredstatements="21" conditionals="7" coveredconditionals="7" methods="7" coveredmethods="7"/>
       <file name="buildDiff.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/buildDiff.js">
         <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
@@ -34,15 +34,6 @@
       <file name="index.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="parse.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/parse.js">
-        <metrics statements="6" coveredstatements="5" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="6" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="8" count="4" type="cond" truecount="3" falsecount="1"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-      </file>
     </package>
     <package name="src.formatters">
       <metrics statements="20" coveredstatements="18" conditionals="11" coveredconditionals="7" methods="4" coveredmethods="4"/>
@@ -71,6 +62,26 @@
         <line num="27" count="12" type="stmt"/>
         <line num="28" count="12" type="stmt"/>
         <line num="31" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.parsers">
+      <metrics statements="8" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="index.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/parsers/index.js">
+        <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+      </file>
+      <file name="json.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/parsers/json.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="yaml.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/parsers/yaml.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
       </file>
     </package>
   </project>

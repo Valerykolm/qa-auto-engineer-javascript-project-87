@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import parse from './parse.js'
+import parse from './parsers/index.js'
 import buildDiff from './buildDiff.js'
 import stylish from './formatters/index.js'
 
