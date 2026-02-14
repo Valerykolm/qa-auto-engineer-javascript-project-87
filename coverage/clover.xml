@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1770891194787" clover="3.2.0">
-  <project timestamp="1770891194787" name="All files">
-    <metrics statements="39" coveredstatements="37" conditionals="19" coveredconditionals="17" methods="10" coveredmethods="10" elements="68" coveredelements="64" complexity="0" loc="39" ncloc="39" packages="2" files="5" classes="5"/>
+<coverage generated="1771068115854" clover="3.2.0">
+  <project timestamp="1771068115855" name="All files">
+    <metrics statements="40" coveredstatements="38" conditionals="20" coveredconditionals="17" methods="10" coveredmethods="10" elements="70" coveredelements="65" complexity="0" loc="40" ncloc="40" packages="2" files="5" classes="5"/>
     <package name="src">
       <metrics statements="26" coveredstatements="25" conditionals="12" coveredconditionals="11" methods="7" coveredmethods="7"/>
       <file name="buildDiff.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/buildDiff.js">
@@ -44,22 +44,23 @@
       </file>
     </package>
     <package name="src.formatters">
-      <metrics statements="13" coveredstatements="12" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <metrics statements="14" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <file name="stylish.js" path="/home/alx/Lera/Hexlet/qa-auto-engineer-javascript-project-87/src/formatters/stylish.js">
-        <metrics statements="13" coveredstatements="12" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <metrics statements="14" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="18" type="cond" truecount="2" falsecount="0"/>
         <line num="3" count="6" type="stmt"/>
         <line num="5" count="12" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="15" type="cond" truecount="4" falsecount="1"/>
-        <line num="12" count="6" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="23" count="12" type="cond" truecount="2" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
       </file>
     </package>
   </project>
