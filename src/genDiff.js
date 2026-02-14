@@ -2,13 +2,13 @@ import fs from 'fs'
 import path from 'path'
 import parse from './parse.js'
 import buildDiff from './buildDiff.js'
-import stylish from './formatters/stylish.js'
+import stylish from './formatters/index.js'
 
 const getPath = filepath => path.resolve(process.cwd(), filepath)
 const getFormat = filepath => path.extname(filepath).slice(1)
 const readFile = filename => fs.readFileSync(getPath(filename), 'utf-8')
 
-const genDiff = (filepath1, filepath2) => {
+const genDiff = (filepath1, filepath2, formatName = 'stylish') => {
   const data1 = readFile(filepath1)
   const data2 = readFile(filepath2)
 
@@ -17,7 +17,7 @@ const genDiff = (filepath1, filepath2) => {
 
   const diffTree = buildDiff(parsedData1, parsedData2)
 
-  return stylish(diffTree)
+  return stylish(diffTree, formatName)
 }
 
 export default genDiff
